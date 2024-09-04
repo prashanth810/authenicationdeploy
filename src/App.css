@@ -1,0 +1,103 @@
+.signup-div {
+    width: 300px;
+    box-shadow: 0px 0px 20px 0px rgba(66, 68, 90, 1);
+    border-radius: 10px;
+    padding: 20px 70px 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-div,
+.email-div,
+.password-div,
+.submit-div {
+    margin: 10px 0px 6px 0px;
+}
+
+.form-div input,
+.email-div input,
+.password-div input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    outline: none;
+}
+
+.submit-div {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+/* expenses  */
+
+.borderstyles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid gray;
+    padding: 0px 10px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.closebutton {
+    cursor: pointer;
+}
+
+.expenses_home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.expenses_tracking_table {
+    height: 280px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.signup_form {
+    width: 300px;
+    box-shadow: 0px 0px 20px 0px rgba(66, 68, 90, 1);
+    border-radius: 10px;
+    padding: 20px 70px 50px 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.incomaxpense_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.incomes {
+    color: #27ae60;
+}
+
+.expenses {
+    color: #e74c3c;
+}
